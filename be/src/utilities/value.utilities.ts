@@ -1,0 +1,1 @@
+export const exists = <T>(value: undefined | null | T): value is T => value !== undefined && value !== null;
